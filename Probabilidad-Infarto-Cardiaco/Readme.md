@@ -1,14 +1,6 @@
 # Resumen
 
-Acontinuación se realizará una clasificación binaria para predecir en base a las variables si un paciente con un determinado número de medidas médicas es susceptible de tener enfermedad de corazón o no.
-
-La clasificación se considerará satisfactoria si alcanza una exactitud de 0.9.
-
-Para ello se realizará un análisis exploratorio de las variables evaluando que variables aportan a la predicción, posteriormente se dividirán los datos en conjunto de entrenamiento (80%) y conjunto de validación (20%).
-
-Con esto se realizarán diversos algoritmos de clasificación binaria mediante ternsorflow, donde el entrenamiento se realizará utilizando validación cruzada aleatoria (en cada algoritmo hay una descripción del procedimiento utilizado).
-
-Finalmente la comparación de los algoritmos se relizará con la exactitud de cada algoritmo sobre el conjunto de validación.
+Acontinuación se realizará una clasificación binaria para predecir en base a las variables si un paciente con un determinado número de medidas médicas es susceptible de tener enfermedad de corazón o no con diversos algoritmos de clasificación binaria mediante ternsorflow.
 
 # Antecedentes de los datos
 
