@@ -22,3 +22,4 @@ Información de los atributos:
 13. **(thal)**    : 3 = normal; 6 = defecto fijo; 7 = defecto reversible
 
 Fuente: https://www.kaggle.com/ronitf/heart-disease-uci
+Link Rpubs: https://rpubs.com/desareca/Clasificacion-infarto-cardiaco
