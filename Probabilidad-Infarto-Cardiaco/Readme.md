@@ -20,6 +20,7 @@ Información de los atributos:
 11. **(slope)**   : pendiente del segmento ST de ejercicio máximo
 12. **(ca)**      : número de vasos principales (0-3) coloreados por flourosopía
 13. **(thal)**    : 3 = normal; 6 = defecto fijo; 7 = defecto reversible
+---
 
 Fuente: https://www.kaggle.com/ronitf/heart-disease-uci
 
