@@ -11,38 +11,71 @@ Estos datos fueron extraídos desde https://sofifa.com/.
 Para este análisis se utilizarán sólo las variables relacionadas a habilidades específicas de los jugadores:
 
 Información de los atributos:
-||||
----|---|---
-|<div style="text-align: left">**LS (Left Striker)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**ST (Striker)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**RS (Right Striker)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**LW (Left Wing)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**LF (Left Forward)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**CF (Center Forward)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**RF (Right Forward)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**RW (Right Wing)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**LAM (Left Attacking Midfielder)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**CAM (Center Attacking Midfielder)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**RAM (Right Attacking Midfielder)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**LM (Left Midfielder)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**LCM (Left Center Midfielder)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**CM (Center Midfielder)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**RCM (Right Center Midfielder)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**RM (Right Midfielder)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**LWB (Lef Wing Back)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**LDM (Left Defensive Midfielder)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**CDM (Center Defensive Midfielder)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**RDM (Right Defensive Midfielder)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**RWB (Right Wing Back)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**LB (Lef Back)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**LCB (Left Center Back)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**CB (Center Back)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**RCB (Right Center Back)**: Habilidad en la posición (0-99).<div/>|<div style="text-align: left">**RB (Right Back)**: Habilidad en la posición (0-99).<div/>
-|<div style="text-align: left">**Crossing**: Ofensiva, habilidad en centros (0-99).<div/>|<div style="text-align: left">**Finishing**: Ofensiva, habilidad en definición (0-99).<div/>
-|<div style="text-align: left">**HeadingAccuracy**: Ofensiva, precisión con la cabeza (0-99).<div/>|<div style="text-align: left">**ShortPassing**: Ofensiva, habilidad en pases cortos (0-99).|<div/>
-|<div style="text-align: left">**Volleys**: Ofensiva, habilidad en voleas (0-99).<div/>|<div style="text-align: left">**Dribbling**: Técnica, habilidad en regates (0-99).|<div/>
-|<div style="text-align: left">**Curve**: Técnica, habilidad en balones con efecto (0-99).<div/>|<div style="text-align: left">**FKAccuracy**: Técnica, habilidad en precisión faltas (0-99).|<div/>
-|<div style="text-align: left">**LongPassing**: Técnica, habilidad en pases largos (0-99).<div/>|<div style="text-align: left">**BallControl**: Técnica, habilidad en control del balón (0-99).|<div/>
-|<div style="text-align: left">**Acceleration**: Movimiento, aceleración (0-99).<div/>|<div style="text-align: left">**SprintSpeed**: Movimiento, velocidad (0-99).|<div/>
-|<div style="text-align: left">**Agility**: Movimiento, agilidad (0-99).<div/>|<div style="text-align: left">**Reactions**: Movimiento, reflejos (0-99).|<div/>
-|<div style="text-align: left">**Balance**: Movimiento, equilibrio (0-99).<div/>|<div style="text-align: left">**ShotPower**: Potencia, potencia (0-99).|<div/>
-|<div style="text-align: left">**Jumping**: Potencia, salto (0-99).<div/>|<div style="text-align: left">**Stamina**: Potencia, resistencia (0-99).|<div/>
-|<div style="text-align: left">**Strength**: Potencia, fuerza (0-99).<div/>|<div style="text-align: left">**LongShots**: Potencia, tiros lejanos (0-99).|<div/>
-|<div style="text-align: left">**Aggression**: Mentalidad, agresividad (0-99).<div/>|<div style="text-align: left">**Interceptions**: Mentalidad, intercepción (0-99).|<div/>
-|<div style="text-align: left">**Positioning**: Mentalidad, colocación (0-99).<div/>|<div style="text-align: left">**Vision**: Mentalidad, visión (0-99).|<div/>
-|<div style="text-align: left">**Penalties**: Mentalidad, penales (0-99).<div/>|<div style="text-align: left">**Composure**: Mentalidad, compostura (0-99).|<div/>
-|<div style="text-align: left">**Marking**: Defensa, marcaje (0-99)<div/>|<div style="text-align: left">**StandingTackle**: Defensa, robos (0-99)|<div/>
-|<div style="text-align: left">**SlidingTackle**: Defensa, entrada agresiva (0-99)<div/>|<div style="text-align: left">**GKDiving**: Portero, estirada (0-99)|<div/>
-|<div style="text-align: left">**GKHandling**: Portero, paradas (0-99)<div/>|<div style="text-align: left">**GKKicking**: Portero, saques (0-99)|<div/>
-|<div style="text-align: left">**GKPositioning**: Portero, colocación (0-99)<div/>|<div style="text-align: left">**GKReflexes**: Portero, reflejos (0-99)|<div/>
+
+- **Wage**: Remuneración de los futbolistas (EUR).
+- **LS (Left Striker)**: Habilidad en la posición (0-99).
+- **ST (Striker)**: Habilidad en la posición (0-99).
+- **RS (Right Striker)**: Habilidad en la posición (0-99).
+- **LW (Left Wing)**: Habilidad en la posición (0-99).
+- **LF (Left Forward)**: Habilidad en la posición (0-99).
+- **CF (Center Forward)**: Habilidad en la posición (0-99).
+- **RF (Right Forward)**: Habilidad en la posición (0-99).
+- **RW (Right Wing)**: Habilidad en la posición (0-99).
+- **LAM (Left Attacking Midfielder)**: Habilidad en la posición (0-99).
+- **CAM (Center Attacking Midfielder)**: Habilidad en la posición (0-99).
+- **RAM (Right Attacking Midfielder)**: Habilidad en la posición (0-99).
+- **LM (Left Midfielder)**: Habilidad en la posición (0-99).
+- **LCM (Left Center Midfielder)**: Habilidad en la posición (0-99).
+- **CM (Center Midfielder)**: Habilidad en la posición (0-99).
+- **RCM (Right Center Midfielder)**: Habilidad en la posición (0-99).
+- **RM (Right Midfielder)**: Habilidad en la posición (0-99).
+- **LWB (Lef Wing Back)**: Habilidad en la posición (0-99).
+- **LDM (Left Defensive Midfielder)**: Habilidad en la posición (0-99).
+- **CDM (Center Defensive Midfielder)**: Habilidad en la posición (0-99).
+- **RDM (Right Defensive Midfielder)**: Habilidad en la posición (0-99).
+- **RWB (Right Wing Back)**: Habilidad en la posición (0-99).
+- **LB (Lef Back)**: Habilidad en la posición (0-99).
+- **LCB (Left Center Back)**: Habilidad en la posición (0-99).
+- **CB (Center Back)**: Habilidad en la posición (0-99).
+- **RCB (Right Center Back)**: Habilidad en la posición (0-99).
+- **RB (Right Back)**: Habilidad en la posición (0-99).
+- **Crossing**: Ofensiva, habilidad en centros (0-99).
+- **Finishing**: Ofensiva, habilidad en definición (0-99).
+- **HeadingAccuracy**: Ofensiva, precisión con la cabeza (0-99).
+- **ShortPassing**: Ofensiva, habilidad en pases cortos (0-99).
+- **Volleys**: Ofensiva, habilidad en voleas (0-99).
+- **Dribbling**: Técnica, habilidad en regates (0-99).
+- **Curve**: Técnica, habilidad en balones con efecto (0-99).
+- **FKAccuracy**: Técnica, habilidad en precisión faltas (0-99).
+- **LongPassing**: Técnica, habilidad en pases largos (0-99).
+- **BallControl**: Técnica, habilidad en control del balón (0-99).
+- **Acceleration**: Movimiento, aceleración (0-99).
+- **SprintSpeed**: Movimiento, velocidad (0-99).
+- **Agility**: Movimiento, agilidad (0-99).
+- **Reactions**: Movimiento, reflejos (0-99).
+- **Balance**: Movimiento, equilibrio (0-99).
+- **ShotPower**: Potencia, potencia (0-99).
+- **Jumping**: Potencia, salto (0-99).
+- **Stamina**: Potencia, resistencia (0-99).
+- **Strength**: Potencia, fuerza (0-99).
+- **LongShots**: Potencia, tiros lejanos (0-99).
+- **Aggression**: Mentalidad, agresividad (0-99).
+- **Interceptions**: Mentalidad, intercepción (0-99).
+- **Positioning**: Mentalidad, colocación (0-99).
+- **Vision**: Mentalidad, visión (0-99).
+- **Penalties**: Mentalidad, penales (0-99).
+- **Composure**: Mentalidad, compostura (0-99).
+- **Marking**: Defensa, marcaje (0-99)
+- **StandingTackle**: Defensa, robos (0-99)
+- **SlidingTackle**: Defensa, entrada agresiva (0-99)
+- **GKDiving**: Portero, estirada (0-99)
+- **GKHandling**: Portero, paradas (0-99)
+- **GKKicking**: Portero, saques (0-99)
+- **GKPositioning**: Portero, colocación (0-99)
+- **GKReflexes**: Portero, reflejos (0-99)
+- **Release Clause**: Clausula de liberación, en EU.
+
+
 ---
 
 Link Rpubs: http://rpubs.com/desareca/Prediccion-Sueldos-Futbolistas
