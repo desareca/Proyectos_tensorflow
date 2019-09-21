@@ -73,8 +73,6 @@ Información de los atributos:
 - **GKKicking**: Portero, saques (0-99)
 - **GKPositioning**: Portero, colocación (0-99)
 - **GKReflexes**: Portero, reflejos (0-99)
-- **Release Clause**: Clausula de liberación, en EU.
-
 
 ---
 
